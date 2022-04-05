@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+.homepage{
+    width: 100%;
+    height:100%;
+    z-index:1;
+}
+.primeimage{
+    width:100px;
+    height:70px;
+    margin-left: 50px;
+    float: left;
+}
+.headers{
+    background-color:#1b2530;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.signhome{
+    float: right;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.homebottom{
+    width:100%;
+    height:600px;
+    background-image: url('../images/backgroung.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.text{
+    color:#ffffff;
+    font-size: 30px;
+}
+.textbtn{
+    color:#000000;
+}

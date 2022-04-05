@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+.allcards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    height:auto;
+    width:250px;
+    background-color: #22254b;
+    box-shadow: 2px 0px 2px 1px rgba(0,0,0,1);
+    border: 1px solid white;
+    transition: 1s;
+}
+.card:hover{
+    background-color: aquamarine;
+    transform: scale(1.3);
+    z-index: 2;
+
+
+}
+.cardimage{
+    height:250px;
+    width:250px;
+}
+.cardtitle_rating{
+    display:flex;
+    justify-content:space-around;
+
+}
+.moviename{
+    margin-left: -35px;
+    color: white;
+}
+.rating{
+    color: aquamarine;
+}
+.cardreleasedate{
+    color: white;
+    margin-top:8px;
+}
+.cardoverview{
+    color:green
+}
+.span{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}

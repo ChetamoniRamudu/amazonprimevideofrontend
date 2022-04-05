@@ -1,0 +1,28 @@
+.login-page{
+    height:600px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:darkseagreen
+}
+.btn-signin,.reg-btn{
+    background-color: brown;
+}
+.btn-signin:hover{
+    background-color: green;
+    transition: 0.5s;
+}
+.reg-btn:hover{
+    background-color: blue;
+    transition: .5s;
+}
+.title-login{
+    font-size: 40px;
+}
+.btntitle{
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1b2530;
+}
+.primeimageee{
+    width:150px;
+    height:100px;
+    margin-left: -100px;
+}
+.list{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right:0px;
+
+
+}
+.list_element{
+        /* Layout Properties */
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    /* UI Properties */
+    background: #282C34;
+    opacity: 1;
+    text-decoration: none;
+    /* UI Properties */
+    vertical-align: middle;
+    text-align: center;
+    font: normal normal normal 14px/19px Avenir;
+    letter-spacing: 1.05px;
+    color: #F2F2F3;
+    text-transform: capitalize;
+    }
